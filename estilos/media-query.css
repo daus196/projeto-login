@@ -21,16 +21,7 @@
         width: 70%;
     }
 
-    div.campo > input {
-        background-color: #6cd3cf;
-        font-size: 1em;
-        width: calc(100% - 44px);
-        height: 100%;
-        
-        border: 0px;
-        border-radius: 8px;
-        transform: translate(44px, -42px);
-    }
+    
 
     
 }
@@ -65,14 +56,6 @@
         margin: 20px 0px;
     }
 
-    div.campo > input {
-        background-color: #6cd3cf;
-        font-size: 1em;
-        width: calc(100% - 44px);
-        height: 100%;
-        
-        border: 0px;
-        border-radius: 8px;
-        transform: translate(44px, -42px);
-    }
+   
+    
 }

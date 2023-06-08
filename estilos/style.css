@@ -25,6 +25,7 @@ section#login{
     top: 50%;
     left: 50%;
     overflow: hidden;
+
     background-color: white;
     width: 250px;
     height: 515px;
@@ -74,7 +75,7 @@ div.campo > label {
 
 div.campo > span {
     color: white;
-    font-size: 2em;
+    font-size: 1.9em;
     width: 40px;
     padding: 5px;
     
@@ -86,12 +87,14 @@ div.campo > input {
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    width: calc(100% - 40px);
-    transform: translateY(-20px);
+    padding: 4px;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
 }
 
 div.campo > input:focus-within {
     background-color: white;
+    border: none;
 }
 
 form > input[type=submit] {
