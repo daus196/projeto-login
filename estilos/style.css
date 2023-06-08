@@ -124,10 +124,15 @@ form > a.botao {
     color: #2d6462;
     background-color: white;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 7px;
     text-decoration: none;
+}
+form > a.botao:hover {
+    background-color: #6cd3cf;
 }
 
 form > a.botao > span {
     font-size: 0.8em;
 }
+
+
